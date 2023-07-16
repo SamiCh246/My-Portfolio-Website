@@ -34,6 +34,9 @@ import {
   tripguide,
   threejs,
   comingsoon,
+  mobileapp,
+  webdev,
+  machinelearning,
 } from "../assets";
 
 export const navLinks = [
@@ -211,6 +214,40 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Sign Language Detector (In Progress)",
+    description:
+      "The Sign Language Detection Software is a Python and TensorFlow project that utilizes LabelImg for gesture annotation. It employs machine learning and computer vision techniques to accurately detect and interpret sign language gestures in real-time. By breaking down communication barriers, this software aims to facilitate seamless communication between sign language users and non-sign language users, promoting inclusivity and accessibility.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tensorflow",
+        color: "green-text-gradient",
+      },
+      {
+        name: "labelimg",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: machinelearning,
+    source_code_link: "https://github.com/SamiCh246/Sign-Language-Detector",
+  },
+  {
+    name: "Clima",
+    description:
+      "Clima is a user-friendly weather forecast application that provides real-time weather information for any location worldwide. This repository contains the source code and project files for the Clima app, enabling you to explore, contribute, and enhance the functionality of the application.",
+    tags: [
+      {
+        name: "swift",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mobileapp,
+    source_code_link: "https://github.com/SamiCh246/Clima",
+  },
+  {
     name: "Nutrivive",
     description:
       "The website provides information about the latest developments in addressing hunger and malnutrition, including current initiatives and projects. It showcases the work of organizations and raises awareness to encourage more involvement and contributions. The website also offers resources and information for those interested in learning more and making a difference.",
@@ -228,21 +265,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: comingsoon,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Chatify",
-    description:
-      "Do you always wanted a safe messaging app for your friends or family? You can use this app. Sign up through email. All the data will be stored securely in the cloud. Create your own app using my code and control its privacy.",
-    tags: [
-      {
-        name: "swift",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: comingsoon,
-    source_code_link: "https://github.com/",
+    image: webdev,
+    source_code_link: "https://github.com/SamiCh246/Nutrivive_Web_Project",
   },
 ];
 
