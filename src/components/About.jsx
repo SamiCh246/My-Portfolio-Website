@@ -57,11 +57,11 @@ const About = () => {
       <div className="flex flex-wrap gap-10 mt-4">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
-          className="text-secondary text-[17px] max-w-3xl leading-[30px] w-[70%]"
+          className="text-secondary text-[17px] max-w-3xl leading-[30px] w-[100%]"
         >
           As a skilled software developer, I have gained proficiency in various programming languages such as Swift, Dart, Python3, and JavaScript. I have also acquired expertise in utilizing frameworks like React, Node.js, Three.js, and Flutter. With a knack for quickly understanding new concepts, I thrive on close collaboration with clients to develop streamlined, scalable, and user-friendly solutions that effectively tackle real-world challenges. I am enthusiastic about partnering with you to turn your visionary ideas into tangible realities.
         </motion.p>
-        <div className="w-[25%]">
+        <div className="w-[29%]">
           <motion.img
             ref={ref}
             src="src/assets/my_pic.png"
