@@ -1,42 +1,26 @@
 import {
-  mobile,
   backend,
-  creator,
-  web,
-  javascript,
-  python,
-  java,
   c,
-  swift,
-  dart,
-  jupyter,
-  bluej,
-  androidstudio,
-  visualstudio,
-  flutter,
-  firebase,
-  tensorflow,
-  html,
+  creator,
   css,
-  reactjs,
-  tailwind,
-  nodejs,
-  git,
-  figma,
   ddsc,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  tti,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  comingsoon,
-  mobileapp,
-  webdev,
+  figma,
+  flutter,
+  git,
+  html,
+  java,
+  javascript,
+  jupyter,
   machinelearning,
+  mobile,
+  mobileapp,
+  python,
+  reactjs,
+  swift,
+  tailwind,
+  tti,
+  web,
+  webdev
 } from "../assets";
 
 export const navLinks = [
@@ -181,6 +165,8 @@ const experiences = [
     date: "Jan 2023 - Present",
     points: [
       "Revived the organization by the help of Depauw Student government and the faculty. Brought awareness of the club through social media, and opened recruitment applications for the Spring 2023 executive board.",
+      "Organized and led successful hackathons focusing on data analysis using Matplotlib and Jupyter, fostering a collaborative environment for participants to showcase their data science skills and creativity.",
+      "Facilitated workshops in collaboration with Indiana University-Purdue University Indianapolis (IUPUI), empowering club members to enhance their data analysis capabilities and establish valuable connections with industry professionals and academia."
     ],
   },
 ];
@@ -270,4 +256,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
+
